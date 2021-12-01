@@ -7,7 +7,7 @@ public class Financas {
   private float lucroEstimado;
   private float lucroReal;
   private float consertoEstimado;
-  private consertoReal consertoReal;
+  private float consertoReal;
 
   public Financas(){
 
@@ -55,10 +55,10 @@ public class Financas {
     this.consertoEstimado = consertoEstimado;
   }
 
-  public Entidades.consertoReal getConsertoReal() {
+  public float getConsertoReal() {
     return consertoReal;
   }
-  public void setConsertoReal(Entidades.consertoReal consertoReal) {
+  public void setConsertoReal(float consertoReal) {
     this.consertoReal = consertoReal;
   }
 }
