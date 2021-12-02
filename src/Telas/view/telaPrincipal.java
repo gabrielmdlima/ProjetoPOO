@@ -35,7 +35,7 @@ public class telaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/carro-esporte (2).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/carro-esporte.jpeg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(550, 512));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N

@@ -6,7 +6,6 @@ public class Veiculo {
   public String placa;
   private String modelo;
   private String marca;
-  private float fipe;
 
   public Veiculo(){
 
@@ -45,12 +44,5 @@ public class Veiculo {
   }
   public void setMarca(String marca) {
     this.marca = marca;
-  }
-
-  public float getFipe() {
-    return fipe;
-  }
-  public void setFipe(float fipe) {
-    this.fipe = fipe;
   }
 }

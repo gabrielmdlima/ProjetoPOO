@@ -2,7 +2,9 @@ package Entidades;
 
 public class Financas {
   private int idFinancas;
+  private int idVeiculo;
   private float valorLeilao;
+  private float fipe;
   private float valorVenda;
   private float lucroEstimado;
   private float lucroReal;
@@ -11,6 +13,13 @@ public class Financas {
 
   public Financas(){
 
+  }
+
+  public int getIdVeiculo() {
+    return idVeiculo;
+  }
+  public void setIdVeiculo(int idVeiculo) {
+    this.idVeiculo = idVeiculo;
   }
 
   public int getIdFinancas() {
@@ -60,5 +69,12 @@ public class Financas {
   }
   public void setConsertoReal(float consertoReal) {
     this.consertoReal = consertoReal;
+  }
+
+  public float getFipe() {
+    return fipe;
+  }
+  public void setFipe(float fipe) {
+    this.fipe = fipe;
   }
 }
