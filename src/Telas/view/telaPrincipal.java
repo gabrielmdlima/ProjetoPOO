@@ -26,53 +26,47 @@ public class telaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
+        bemVindo = new javax.swing.JLabel();
+        barraMenu = new javax.swing.JMenuBar();
+        botaoVeiculo = new javax.swing.JMenu();
+        botaoFinancas = new javax.swing.JMenu();
+        botaoTabela = new javax.swing.JMenu();
+        botaoSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("images/carro-esporte.jpeg"))); // NOI18N
-        jLabel1.setMaximumSize(new java.awt.Dimension(550, 512));
+        bemVindo.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bemVindo.setText("Bem-vindo");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel2.setText("Bem-vindo");
+        botaoVeiculo.setText("Cadastro de Veículo");
+        barraMenu.add(botaoVeiculo);
 
-        jMenu1.setText("Cadastro");
-        jMenuBar1.add(jMenu1);
+        botaoFinancas.setText("Finanças");
+        barraMenu.add(botaoFinancas);
 
-        jMenu2.setText("Tabela de Veículos");
-        jMenuBar1.add(jMenu2);
+        botaoTabela.setText("Tabela de Veículos");
+        barraMenu.add(botaoTabela);
 
-        jMenu3.setText("Sair");
-        jMenuBar1.add(jMenu3);
+        botaoSair.setText("Sair");
+        barraMenu.add(botaoSair);
 
-        setJMenuBar(jMenuBar1);
+        setJMenuBar(barraMenu);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(277, 277, 277)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jLabel2)))
-                .addContainerGap(295, Short.MAX_VALUE))
+                .addGap(298, 298, 298)
+                .addComponent(bemVindo)
+                .addContainerGap(317, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(72, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
-                .addGap(66, 66, 66))
+                .addContainerGap(119, Short.MAX_VALUE)
+                .addComponent(bemVindo)
+                .addGap(118, 118, 118))
         );
 
         pack();
@@ -114,11 +108,11 @@ public class telaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuBar barraMenu;
+    private javax.swing.JLabel bemVindo;
+    private javax.swing.JMenu botaoFinancas;
+    private javax.swing.JMenu botaoSair;
+    private javax.swing.JMenu botaoTabela;
+    private javax.swing.JMenu botaoVeiculo;
     // End of variables declaration//GEN-END:variables
 }
